@@ -1,0 +1,6 @@
+class MovieUser {
+	public static void main(String[] args){
+		Hall obj=new Hall("harishankar","ganesh",50.9,"pawankalyan","sruthihasan",100000.0,"babu","rana"); 
+		obj.dis();
+	}
+}

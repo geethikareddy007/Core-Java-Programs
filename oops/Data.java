@@ -1,0 +1,31 @@
+class Data{
+	String name;
+	int id;
+	double tenth;
+	double twelth;
+	String email;
+	public Data(String name,int id){
+		this.name=name;
+		this.id=id;
+	}
+	public Data(String name,int id, double tenth){
+		this(name,id);
+		this.tenth=tenth;
+	}
+	public Data(String name,int id, double tenth,double twelth){
+		this(name,id,tenth);
+		this.twelth=twelth;
+	}
+	public Data(String name,int id, double tenth,double twelth,String email){
+		this(name,id,tenth,twelth);
+		this.email=email;
+		
+	}
+	public void dis(){
+		System.out.println(name);
+		System.out.println(id);
+		System.out.println(tenth);
+		System.out.println(twelth);
+		System.out.println(email);
+	}
+}

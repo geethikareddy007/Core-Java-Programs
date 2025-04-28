@@ -1,0 +1,9 @@
+class B extends A{
+	int c=30;
+	static int d=40;
+	public static void main(String [] args){
+		System.out.println("Multi-level");
+		System.out.println(a);
+		System.out.println(c);
+	}
+}

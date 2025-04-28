@@ -1,0 +1,13 @@
+class Movie{
+	String dname;
+	String producer;
+	double budget;
+		Movie(String dname,String producer,double budget){
+			super();
+			this.dname=dname;
+			this.producer=producer;
+			this.budget=budget;
+			
+		}
+		
+}

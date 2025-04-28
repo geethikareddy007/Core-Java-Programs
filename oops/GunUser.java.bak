@@ -1,0 +1,21 @@
+class GunUser{
+	public static void main(String[] args){
+		Gun g1= new Gun();
+		System.out.println("-----Gun details----");
+		g1.type = "revolver";
+		g1.modal  = "MK47";
+		g1.range = 6;
+		g1.color = "light brown";
+		g1.shoot();
+		g1.display();
+		
+		System.out.println("----- another Gun details-----");
+		Gun g2 = new Gun();
+		g2.type = "pistol";
+		g2.modal  = "lcp 380";
+		g2.range = 8;
+		g2.color = "light black";
+		g2.shoot();
+		g2.display();
+	}
+}

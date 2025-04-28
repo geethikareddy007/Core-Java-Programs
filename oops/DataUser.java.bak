@@ -1,0 +1,16 @@
+class  DataUser{
+	public static void main(String[] args){
+		Data obj =new Data("geetha",23,6.7,"geethu@gmail");
+		obj.dis();
+		
+		
+	}
+}
+
+/*o/p:-
+geetha
+23
+6.7
+8.0
+geethu@gmail
+*/

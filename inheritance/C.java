@@ -1,0 +1,7 @@
+class C extends B {
+	int e=3;
+	static int f=6;
+	public void mul(){
+		System.out.println("Multi");
+	}
+}

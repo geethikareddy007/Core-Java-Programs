@@ -1,0 +1,13 @@
+class Pen{
+	double price;
+	Cap c;
+	Pen(double price, Cap c)){
+		this.price=price;
+		this.c=c;
+	}
+	public void write(){
+		c.open();
+		System.out.println("write java notes");
+		c.close();
+	}
+}

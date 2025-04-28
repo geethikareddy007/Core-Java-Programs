@@ -1,0 +1,12 @@
+class  StudentUser{
+	public static void main(String[] args){
+		Student obj=new Student("geetha",342,9.0);
+		obj.details();
+		System.out.println("------------------");
+		Student obj1=new Student("geethika", 562,8.8,9.3);
+		obj1.details();
+		System.out.println("------------");
+		Student obj2=new Student("geethu",786,9.3,9.8);
+		obj2.details();
+	}
+}

@@ -1,0 +1,11 @@
+class CarUser {
+	public static void main(String[] args) {
+	Car obj=new Car("Tata-nexon",120000.4,30.1);
+	obj.ride();
+	obj.dis();
+	System.out.println("------------");
+	Car obj1=new Car("BMW",10000000.0,24.1);
+	obj1.ride();
+	obj1.dis();
+	}
+}

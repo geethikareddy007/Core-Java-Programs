@@ -1,0 +1,14 @@
+class Rectangle1{
+	double length;
+	double height;
+	double width;
+	public void area(){
+		double area = length*height*width;
+		System.out.println("Area of rectangle1 is : "+area);
+	}
+	public void dis(){
+		System.out.println(this.length);
+		System.out.println(this.height);
+		System.out.println(this.width);
+	}
+}

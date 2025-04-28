@@ -1,0 +1,11 @@
+public class User{
+	public static void main(String[] args){
+		//c obj=new c();
+		obj.walk();
+		obj.run();
+		obj.sleep();
+		//c1 obj1=new c1();
+		obj1.walk();
+	}
+}
+

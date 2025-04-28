@@ -1,0 +1,11 @@
+class User{
+	public static void main(String[] args){
+		System.out.println("MB");
+		B obj=new B();
+	}
+}
+/*o/p:-
+MB
+From A()
+From B()
+*/

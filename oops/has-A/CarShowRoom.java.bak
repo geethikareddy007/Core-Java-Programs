@@ -1,0 +1,13 @@
+class CarShowRoom{
+	public static void main(String[] args){
+		Car c=new Car("Tata-nexon",12000000, new Engine(840.0,300000));
+		c.e.combustion();
+		c.ride();
+		System.out.println(c.e);
+	}
+}
+/*
+Dru...Dru...Druurrr
+Enjoy the ride...
+Engine@2f92e0f4
+*/ 

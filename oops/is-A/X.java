@@ -1,0 +1,10 @@
+class X{
+	static int a=10;
+	int b=20;
+	public void add(){
+		System.out.println("From X class");
+	}
+	public static void test(){
+	System.out.println("From X class Static method");
+	}
+}

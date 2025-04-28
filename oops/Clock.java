@@ -1,0 +1,39 @@
+class  Clock{
+	private int hr;
+	private int min;
+	private int sec;
+		Clock(int hr,int min,int sec){
+			if((hr >=0 && hr<=23) && (min>=0 && min<=59) && (sec>=0 && sec<=59)){
+				this.hr=hr;
+				this.min=min;
+				this.sec=sec;
+			}else{
+			System.out.println("Enter valid time zone");
+			}
+		}
+		public void showTime(){
+			System.out.println(this.hr+":"+this.min+":"+this.sec);
+		}
+		public void setHr(int hr){
+			if(hr>=0 && hr<=23)
+				this.hr=hr;
+		}
+		public int getHr(){
+			return this.hr;
+		}
+		public void setMin(int min){
+			if(min>=0 && min<=59)
+				this.min=min;
+		}
+		public int getMin(){
+			return this.min;
+		}
+		public void setSec(int sec){
+			if(sec>=0 && sec<=59)
+				this.sec=sec;
+		}
+		public int getSec(){
+			return this.sec;
+		}
+	}
+

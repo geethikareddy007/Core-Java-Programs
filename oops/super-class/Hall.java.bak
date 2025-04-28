@@ -1,0 +1,25 @@
+class Hall extends Movie{
+	String hero;
+	String heroine;
+	double profit;
+	String dancer;
+	String vilan;
+	Hall(String dname,String producer,double budget, String hero,String heroine,double profit,String dancer,String vilan){
+		super(dname,producer,budget);
+		this.hero=hero;
+		this.heroine=heroine;
+		this.profit=profit;
+		this.dancer=dancer;
+		this.vilan=vilan;
+	}
+	public void dis(){
+		System.out.println("dname name is: "+this.dname);
+		System.out.println("producer name is: "+this.producer);
+		System.out.println("budget is: "+this.budget);
+		System.out.println("hero name is: "+this.hero);
+		System.out.println("heroine name is: "+this.heroine);
+		System.out.println("profit is: "+this.profit);
+		System.out.println("director name is: "+this.dancer);
+		System.out.println("vilan name is: "+this.vilan);
+	}
+}

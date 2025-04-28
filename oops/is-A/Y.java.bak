@@ -1,0 +1,7 @@
+class Y extends X{
+	int c=30;
+	static d=40;
+	public void sub(){
+		System.out.println("From Y class");
+	}
+}

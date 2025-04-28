@@ -1,0 +1,12 @@
+class Parent{
+	public void b_tech(){
+		System.out.println("join mechanical");
+	}
+	public static void staticMethod(){
+		System.out.println("from super class");
+	}
+}
+/*o/p:-
+I will join computer science
+from super class
+*/

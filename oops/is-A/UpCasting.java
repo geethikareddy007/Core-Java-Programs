@@ -1,0 +1,16 @@
+class UpCasting{
+	public static void main(String[] args){
+		//upcasting
+		P obj =(P)new Q();
+		System.out.println(obj.a);	//10
+		System.out.println(obj.b);	//20
+		//System.out.println(obj.c);	//CTE
+		
+		//downcasting
+		Q obj1=(Q)new P();
+		System.out.println(obj1.a);
+		System.out.println(obj1.b);
+		//System.out.println(obj1.d);	//CTS but ClassCastException happens here.
+		
+	}
+}
